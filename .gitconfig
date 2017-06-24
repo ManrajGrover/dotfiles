@@ -1,0 +1,8 @@
+# use separate file for username / github token / etc
+[include]
+	path = ~/.gitconfig.local
+[core]
+	excludesfile = ~/.gitignore_global
+[commit]
+	template = ~/.stCommitMsg
+	gpgsign = true
